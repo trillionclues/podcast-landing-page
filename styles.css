@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* mobile x600px */
+@media screen and (max-width: 600px) {
+  body {
+    font-family: 'Chivo', sans-serif;
+    background-color: #121725;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: linear-gradient(115deg, #121725, rgba(6, 10, 8, 0.7)),
+      url(./assets/desktop/image-host.jpg);
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header .logo {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  .dots {
+    display: none;
+  }
+
+  .text-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.6;
+  }
+
+  .text-hero h2 {
+    margin-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(60, 197, 129, 0.7);
+    font-weight: 400;
+  }
+
+  .text-hero h2 span {
+    display: inline-block;
+    color: #f4eee8;
+    font-weight: 200;
+    text-indent: 12px;
+  }
+
+  .text-hero small {
+    text-align: center;
+    text-transform: initial;
+    color: rgba(247, 243, 243, 0.645);
+    font-weight: 200;
+    word-spacing: 2px;
+    margin: 2rem 25px;
+    line-height: 2;
+  }
+
+  /* form */
+
+  .casts {
+    position: absolute;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    top: -30px;
+    margin: 3rem 2rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .casts img {
+    height: 100%;
+    width: 80px;
+    padding: 0 7px;
+  }
+
+  #form {
+    position: relative;
+    bottom: -50%;
+    margin: auto;
+    padding: 2.5rem 0.625rem;
+  }
+
+  .cta {
+    position: absolute;
+    top: auto;
+    bottom: -170%;
+    left: 30px;
+    right: 0;
+  }
+
+  input {
+    display: block;
+    height: 2.775rem;
+    padding: 1.5rem 2.7rem;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2rem;
+    background: rgba(150, 148, 148, 0.645);
+  }
+
+  ::placeholder {
+    color: rgba(247, 243, 243, 0.645);
+  }
+
+  button {
+    margin-top: 0.95rem;
+    height: 3.2rem;
+    border: none;
+    border-radius: 40px;
+    display: block;
+    padding: 0.775rem 5.6rem;
+    font-size: 18px;
+    cursor: pointer;
+    background: rgba(60, 197, 129, 0.7);
+  }
+}
