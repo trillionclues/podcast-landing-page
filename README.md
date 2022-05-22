@@ -1,5 +1,5 @@
 # Frontend Mentor - Pod request access landing page
-https://chamumutezva.github.io/pod-request-access-landing-page/.
+https://trillionclues.github.io/podcast-landing-page/
 ![Design preview for the Pod request access landing page coding challenge](./preview.jpg)
 
 ## Welcome! 👋
