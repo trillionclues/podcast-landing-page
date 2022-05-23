@@ -164,7 +164,7 @@
 
   .dots {
     position: absolute;
-    bottom: -490px;
+    bottom: -480px;
     right: -0px;
     /* width: 100px; */
     height: 90px;
@@ -190,7 +190,7 @@
   #modal {
     background-color: #121725;
     width: 600px;
-    margin-left: 10rem;
+    margin-left: 20rem;
     margin-top: 5rem;
     position: absolute;
     left: 0px;
@@ -214,7 +214,7 @@
     /* text-align: center; */
     color: rgba(60, 197, 129, 0.7);
     font-weight: 400;
-    font-size: 40px;
+    font-size: 43px;
   }
 
   span {
