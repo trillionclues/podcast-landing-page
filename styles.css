@@ -165,7 +165,7 @@
 
   .dots {
     position: absolute;
-    bottom: -455px;
+    bottom: -495px;
     right: -0px;
     /* width: 100px; */
     height: 90px;
@@ -184,7 +184,7 @@
   }
 
   .hero-img img {
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-left: 2rem;
     width: 100%;
     height: auto;
@@ -193,8 +193,8 @@
   #modal {
     background-color: #121725;
     width: 600px;
-    margin-left: 20rem;
-    margin-top: 5rem;
+    margin-left: 12rem;
+    margin-top: 7rem;
     position: absolute;
     left: 0px;
     top: 123px;
@@ -269,9 +269,9 @@
     font-weight: 700;
     border: none;
     background: rgba(124, 228, 176, 0.7);
-    right: 244px;
+    right: 251px;
     bottom: auto;
-    left: 230px;
+    left: 235px;
     top: 3.3px;
     text-align: center;
   }
